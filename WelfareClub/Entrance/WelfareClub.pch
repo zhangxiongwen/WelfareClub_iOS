@@ -1,0 +1,42 @@
+//
+//  WelfareClub.pch
+//  WelfareClub
+//
+//  Created by 鼎立华服 on 2019/1/4.
+//  Copyright © 2019 iizvv. All rights reserved.
+//
+
+#ifndef WelfareClub_pch
+#define WelfareClub_pch
+#ifdef __OBJC__
+
+/** runtime */
+#import <objc/runtime.h>
+
+/** 基础UI库,深度依赖, https://github.com/Tencent/QMUI_iOS */
+#import <QMUIKit.h>
+
+/** HUD */
+#import <FFToast.h>
+
+/** 自动约束 */
+#import <Masonry.h>
+
+/** 类扩展 */
+#import <YYCategories.h>
+
+/** 静态字符 */
+#import "IZStatic.h"
+
+/** 宏定义 */
+#import "IZDefine.h"
+
+/** 输出语句 */
+#ifdef DEBUG
+#define NSLog( s, ... ) NSLog( @"\n{\n所在方法:%s\n所在行数:%d\n打印内容:%@\n}", __func__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+#else
+#define NSLog(...)
+#endif
+
+#endif
+#endif /* WelfareClub_pch */

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rUl-Sn-Sun">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Equality before the resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUS-ps-4gD">
+                    <rect key="frame" x="0.0" y="590.5" width="375" height="38.5"/>
+                    <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="32"/>
+                    <color key="textColor" red="1" green="0.038526473445225307" blue="0.10019185139707887" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oUS-ps-4gD" firstAttribute="centerX" secondItem="rUl-Sn-Sun" secondAttribute="centerX" id="B5P-fp-hmw"/>
+                <constraint firstItem="0g6-sH-Qe4" firstAttribute="trailing" secondItem="oUS-ps-4gD" secondAttribute="trailing" id="XgX-QT-6ni"/>
+                <constraint firstItem="oUS-ps-4gD" firstAttribute="leading" secondItem="0g6-sH-Qe4" secondAttribute="leading" id="oWg-4y-HEB"/>
+                <constraint firstItem="0g6-sH-Qe4" firstAttribute="bottom" secondItem="oUS-ps-4gD" secondAttribute="bottom" constant="38" id="zHe-uh-key"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="0g6-sH-Qe4"/>
+            <point key="canvasLocation" x="236" y="62.518740629685162"/>
+        </view>
+    </objects>
+</document>
