@@ -2,7 +2,7 @@
 //  NSObject+IZExtension.h
 //  Thief
 //
-//  Created by 鼎立华服 on 2018/12/20.
+//  Created by iizvv on 2018/12/20.
 //  Copyright © 2018 iizvv. All rights reserved.
 //
 

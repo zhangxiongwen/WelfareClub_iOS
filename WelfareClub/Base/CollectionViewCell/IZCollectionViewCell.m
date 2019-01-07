@@ -2,7 +2,7 @@
 //  IZCollectionViewCell.m
 //  Thief
 //
-//  Created by 鼎立华服 on 2018/12/31.
+//  Created by iizvv on 2018/12/31.
 //  Copyright © 2018 iizvv. All rights reserved.
 //
 
